@@ -1,0 +1,51 @@
+body {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+  }
+  
+  .container {
+    background: url("https://as2.ftcdn.net/jpg/00/84/60/25/1000_F_84602505_CbgZtlxEktGN0wfLfTQMuRNvBau4mujo.jpg")
+      no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  button {
+    background-color: #ff1b7b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1abc9c;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
